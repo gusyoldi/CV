@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ExperienciasDigitales() {
   return (
-    <>
+    <div className='experiencias-digitales'>
       <h3>EXPERIENCIAS DIGITALES</h3>
             <h4>TeapotHouse.com | Digital House</h4>
               <p>
@@ -16,6 +16,6 @@ export default function ExperienciasDigitales() {
                   para la gestión del mismo.
 
               </p>
-    </>
+    </div>
   )
 }

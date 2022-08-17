@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function OtrasExperiencias() {
   return (
-    <>
+    <div className='otras-experiencias'>
       <h3>OTRAS EXPERIENCIAS</h3>
             <h4>Teatro Colón | Junio 2018 - Actualidad</h4>
               <p>
@@ -12,6 +12,6 @@ export default function OtrasExperiencias() {
                   preparado para el día del estreno.
 
               </p>
-    </>
+    </div>
   )
 }

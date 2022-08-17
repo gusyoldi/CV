@@ -1,4 +1,4 @@
-@import url(chrome://resources/css/roboto.css);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
 
 
 * {
@@ -6,27 +6,59 @@
   font-size: 10px;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .app {
   font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
   display: flex;
-  justify-content: space-around;
-  margin: 10px
+  justify-content: center;
+  margin: 10px;
+  width: 360px;
+  background-color: beige;
   
 
 }
 
 .section1 {
-  background-color: rgba(29, 204, 204, 0.534);
-  width: 25%;
-  margin: 5px
+  background-color: rgba(23, 155, 155, 0.295);
+  width: 35%;
+  border-radius: 150px;
+  padding: 30px 5px
+}
+
+.section2 {
+  width: 50%;
+
 }
 
 div {
-  margin-top: 20px
+  margin-top: 20px;
+  margin:auto;
+  padding: 10px;
+  width: 80%;
+  
+}
+
+div img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+div ul {
+  margin: auto;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+div.competencias ul{
+  list-style: disc;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -35,38 +67,45 @@ h1 {
 }
 
 h2 {
-  font-size: 1.20rem;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
   src: local('Roboto Medium'), local('Roboto-Medium'),
       url(chrome://resources/roboto/roboto-medium.woff2) format('woff2');
 }
 
 h3 {
   color: grey;
-  font-size: 1.2;
+  font-size: 1rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  padding-bottom: 8px;
   src: local('Roboto Medium'), local('Roboto-Medium'),
       url(chrome://resources/roboto/roboto-medium.woff2) format('woff2');
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
+  padding-bottom: 5px;
   src: local('Roboto Bold'), local('Roboto-Bold'),
       url(chrome://resources/roboto/roboto-bold.woff2) format('woff2');
 }
 
 p {
-  font-size: 1.20rem;
+  font-size: 0.9rem;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+  padding-bottom: 5px;
   src: local('Roboto'), local('Roboto-Regular'),
       url(chrome://resources/roboto/roboto-regular.woff2) format('woff2');
+}
+
+span {
+  font-weight: 600;
 }

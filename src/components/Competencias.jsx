@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Competencias() {
   return (
-    <>
+    <div className='competencias'>
     <h2>Competencias</h2>
             <ul>
               <li>Constante Aprendizaje</li>
@@ -11,6 +11,6 @@ export default function Competencias() {
               <li>Buena Comunicacíon</li>
               <li>Metodologías Ágiles (Scrum)</li>
             </ul>
-      </>
+      </div>
   )
 }
