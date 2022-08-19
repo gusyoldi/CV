@@ -1,0 +1,10 @@
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icono img {
+  width: 120px;
+  margin-right: 50px;
+}

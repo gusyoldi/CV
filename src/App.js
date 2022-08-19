@@ -7,6 +7,7 @@ import SobreMi from "./components/SobreMi";
 import Idiomas from "./components/Idiomas";
 import Competencias from "./components/Competencias";
 import Titulo from "./components/Titulo";
+import Skills from "./components/Skills";
 import FormacionAcademica from "./components/FormacionAcademica";
 import TecnologiasAfines from "./components/TecnologiasAfines";
 import ExperienciaProfesional from "./components/ExperienciaProfesional";
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="app">
       <Titulo />
-
+      <Skills />
       {/* <section className="section1">
         
         <Contacto />
