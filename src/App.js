@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import foto from './assets/images/Foto-CV.jpg'
 
 //Components:
 import Contacto from "./components/Contacto";
@@ -15,10 +14,10 @@ import ExperienciaProfesional from "./components/ExperienciaProfesional";
 function App() {
   return (
     <div className="app">
-      <section className="section1">
-        <div>
-          <img alt="foto" src={ foto }></img>
-        </div>
+      <Titulo />
+
+      {/* <section className="section1">
+        
         <Contacto />
 
         <SobreMi />
@@ -28,14 +27,14 @@ function App() {
         <Competencias />
       </section>
       <section className="section2">
-        <Titulo />
+        
 
         <FormacionAcademica />
 
         <TecnologiasAfines />
 
         <ExperienciaProfesional />
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.texto {
+  margin-left: 5rem;
+}
