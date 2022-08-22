@@ -2,41 +2,32 @@ import React from "react";
 import "./App.css";
 
 //Components:
-import Contacto from "./components/Contacto";
-import SobreMi from "./components/SobreMi";
-import Idiomas from "./components/Idiomas";
-import Competencias from "./components/Competencias";
-import Titulo from "./components/Titulo";
+
+import Presentacion from "./components/Presentacion";
 import Skills from "./components/Skills";
-import FormacionAcademica from "./components/FormacionAcademica";
-import TecnologiasAfines from "./components/TecnologiasAfines";
-import ExperienciaProfesional from "./components/ExperienciaProfesional";
+import Proyectos from "./components/Proyectos";
+import Contacto from "./components/Contacto";
+
+
+
 
 function App() {
+  
+  //Pasar colores por props, como clases de Boostrap.
+  const colorPalette = {
+    ligthBeige: '#F7ECDE',
+    darkBeige: '#E9DAC1',
+    ligthTeal: '#9ED2C6',
+    darkTeal: '#54BAB9'
+  }
+
   return (
-    <div className="app">
-      <Titulo />
-      <Skills />
-      {/* <section className="section1">
-        
-        <Contacto />
-
-        <SobreMi />
-
-        <Idiomas />
-
-        <Competencias />
-      </section>
-      <section className="section2">
-        
-
-        <FormacionAcademica />
-
-        <TecnologiasAfines />
-
-        <ExperienciaProfesional />
-      </section> */}
-    </div>
+    <>
+      <Presentacion colors={colorPalette} />
+      <Skills colors={colorPalette} />
+      <Proyectos colors={colorPalette} />
+      <Contacto colors={colorPalette} />
+    </>
   );
 }
 
