@@ -1,11 +1,11 @@
 import React from "react";
-import reactLogo from "./../assets/images/react.png";
-import jsLogo from "./../assets/images/js.png";
-import htmlLogo from "./../assets/images/html-5.png";
-import cssLogo from "./../assets/images/css-3.png";
-import gitLogo from "./../assets/images/git.png";
-import nodeLogo from "./../assets/images/node-js.png";
-import sqlLogo from "./../assets/images/sql-server.png";
+import reactLogo from "../../assets/images/Tecnologies/react.png";
+import jsLogo from "../../assets/images/Tecnologies/js.png";
+import htmlLogo from "../../assets/images/Tecnologies/html-5.png";
+import cssLogo from "../../assets/images/Tecnologies/css-3.png";
+import gitLogo from "../../assets/images/Tecnologies/git.png";
+import nodeLogo from "../../assets/images/Tecnologies/node-js.png";
+import sqlLogo from "../../assets/images/Tecnologies/sql-server.png";
 
 
 

@@ -1,0 +1,11 @@
+.bg-image {
+  background-image: url('./assets/images/bg/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.foto-presentacion{
+max-width: 150px;
+}
+

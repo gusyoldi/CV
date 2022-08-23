@@ -1,10 +1,12 @@
 import React from "react";
-import foto from "./../assets/images/Foto-CV.jpg";
+import foto from "../../assets/images/Foto-CV.jpg";
 
 
-export default function Presentacion() {
+
+
+export default function Welcome() {
   return (
-    <div className="row justify-content-center bg-dark text-warning">
+    <div className="row justify-content-center text-light bg-image">
       <div className="col text-center">
         <img className="foto-presentacion img-fluid img-thumbnail rounded-circle" alt="foto" src={foto}></img>
       </div>

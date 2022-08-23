@@ -1,12 +1,13 @@
 import React from "react";
-import "./App.css";
+import "./GlobalStyles.css";
 
 //Components:
 
-import Presentacion from "./components/Presentacion";
-import Skills from "./components/Skills";
-import Proyectos from "./components/Proyectos";
-import Contacto from "./components/Contacto";
+import Welcome from "./components/Welcome/Welcome";
+import Skills from "./components/Skills/Skills";
+import Portfolio from "./components/Portfolio/Portfolio";
+import ContactMe from "./components/ContactMe/ContactMe";
+
 
 
 
@@ -23,10 +24,10 @@ function App() {
 
   return (
     <>
-      <Presentacion colors={colorPalette} />
+      <Welcome colors={colorPalette} />
       <Skills colors={colorPalette} />
-      <Proyectos colors={colorPalette} />
-      <Contacto colors={colorPalette} />
+      <Portfolio colors={colorPalette} />
+      <ContactMe colors={colorPalette} />
     </>
   );
 }

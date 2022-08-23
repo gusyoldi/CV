@@ -1,9 +1,9 @@
 import React from 'react'
-import ProyectCard from './ProyectCard'
+import ProyectCard from './ProyectCard/ProyectCard'
 
 
 
-export default function Proyectos() {
+export default function Portfolio() {
   return (
     <div className="row bg-dark">
       <div className="row text-center text-warning">
