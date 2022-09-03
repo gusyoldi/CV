@@ -1,11 +1,16 @@
-.bg-image {
+.bg-image-welcome {
   background-image: url('./assets/images/bg/2.jpg');
+  background-color: black;
+  background-position: center;
   background-repeat: no-repeat;
+  /* height: 500px; */
   background-size: cover;
-  
+
+
+
 }
 
 .foto-presentacion{
-max-width: 150px;
+max-width: 5rem;
 }
 
